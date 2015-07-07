@@ -3,27 +3,21 @@ A weakly-typed, object-oriented, imperative, server-side programming language an
 
 ## Sample code
 
-```csharp
-namespace Hello.World;
+```JAVA
+namespace Hello.World
 
 global Main
-{
-    const EXCL_MARK is '!';
+    const EXCL_MARK is '!'
     
-    private hello is 'Hello';
-    private world is 'World';
+    private hello is 'Hello'
+    private world is 'World'
     
     public static @construct(Map argv = [])
-    {
-        instance is Main;
-        instance.showHelloWorld();
-    }
+        instance is Main
+        instance.showHelloWorld()
     
     private showHelloWorld()
-    {
-        stdout this.hello + this.world + Main:EXCL_MARK;
-    }
-}
+        stdout this.hello + this.world + Main:EXCL_MARK
 ```
 
 ## Current status
