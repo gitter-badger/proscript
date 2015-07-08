@@ -1,4 +1,6 @@
 # Proscript
+
+[![Join the chat at https://gitter.im/proscript/proscript](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/proscript/proscript?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 A weakly-typed, object-oriented, imperative, server-side programming language and runtime with event-driven architecture.
 
 ## Sample code
